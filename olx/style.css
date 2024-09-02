@@ -1,0 +1,513 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    background-color: white;
+}
+
+.fa {
+
+    width: 70px;
+    height: 80px;
+
+
+}
+
+.logo {
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.hsearch {
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+
+
+}
+
+.header-search {
+    padding: 5px;
+
+    height: 45px;
+    width: 18%;
+    border-radius: 3px;
+    border-color: rgb(54, 54, 54);
+}
+
+
+#search {
+    width: 600px;
+    padding: 5px;
+    height: 45px;
+    margin-top: 0;
+
+}
+
+.head-search {
+    padding: 5px;
+    display: flex;
+    height: 45px;
+    width: 30%;
+    border-radius: 3px;
+    border-color: rgb(54, 54, 54);
+}
+
+.fa-magnifying-glass {
+    background-color: black;
+    border-radius: 3px;
+    font-size: 25px;
+    top: 10px;
+    position: absolute;
+    left: 10px;
+
+}
+
+#icon {
+
+    width: 5%;
+    color: white;
+
+
+}
+
+.sbutton {
+    height: 45px;
+    width: 4%;
+    background-color: black;
+    border-radius: 3px;
+    position: relative;
+}
+
+.login {
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.sellbut {
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTjokwlhhgvn1l8-O8VCcSXKCCC-ZyAul8KmgFM-CbR7tPd9P2t);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    margin-right: 20px;
+    border-radius: 180px;
+    height: 34px;
+    width: 70px;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: end;
+}
+
+.button:hover {
+    height: 30px;
+    width: 66px;
+}
+
+.plus-sign {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    right: 21%;
+}
+
+/* nav bar end */
+
+ul li {
+    list-style-type: none;
+    font-size: 11.5px;
+    display: inline;
+    color: rgb(0, 50, 11);
+}
+
+ul li:hover {
+    color: rgb(5, 141, 109);
+}
+
+.list-1 {
+
+    padding: 20px;
+    top: 0%;
+
+}
+
+/* slide */
+
+.mhead {
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    border-radius: 5px;
+    width: 97%;
+    height: 145px;
+    top: 270px;
+    left: 20px;
+}
+
+h3 {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 65%;
+}
+
+.allcategories {
+    height: 200px;
+    width: 80%;
+    background-color: rgba(168, 98, 98, 0);
+    margin: auto;
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    place-content: space-between;
+    
+
+}
+
+.c1 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c2 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c3 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.p1 {
+    margin-top: 70px;
+}
+
+.c4 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c5 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c6 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c7 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c8 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c9 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c10 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c11 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c12 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c13 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.c14 {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 160px;
+    font-size: small;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h4 {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 750px;
+    /* font-size: 50px; */
+}
+
+.col {
+    border: 5px black;
+    height: 200px;
+    width: 310px;
+}
+
+.mob {
+    width: 310;
+    height: 150px;
+}
+
+.mobile {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 780px;
+    gap: 10px;
+    width: 100%;
+}
+
+.vh {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 1130px;
+    font-size: 25px;
+}
+
+.Vehicles {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1160px;
+    gap: 10px;
+    width: 100%;
+}
+
+.bh {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 1525px;
+    font-size: 25px;
+}
+
+.Bikes {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1570px;
+    gap: 10px;
+    width: 100%;
+}
+
+.th {
+    position: absolute;
+    left: 5%;
+    right: 0;
+    top: 1910px;
+    font-size: 25px;
+}
+
+.Tabs {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 1940px;
+    gap: 10px;
+    width: 100%;
+}
+
+.end {
+    position: absolute;
+    border-radius: 5px;
+    width: 100%;
+    height: 145px;
+    top: 2275px;
+
+}
+
+/* footer start */
+footer {
+    position: absolute;
+    top: 2400px;
+    width: 100%;
+    height: 200px;
+}
+
+.col-lg-3 .span-two img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+}
+
+.footer p {
+    font-size: 10px;
+    color: #00000086;
+}
+
+.footer h2 {
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font: 13px;
+    color: #00000086;
+}
+
+.footer h2:hover {
+    text-decoration: underline;
+}
+
+/* footer end */
